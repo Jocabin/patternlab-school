@@ -1,0 +1,19 @@
+{{#btn-link}}
+    {{#disabled}}
+    <a disabled class="{{btn-class}} font btn--primary btn" href="{{btn-link}}">{{btn-content}}</a>
+    {{/disabled}}
+
+    {{^disabled}}
+    <a class="{{btn-class}} font btn--primary btn" href="{{btn-link}}">{{btn-content}}</a>
+    {{/disabled}}
+{{/btn-link}}
+
+{{^btn-link}}
+    {{#disabled}}
+    <button disabled class="{{btn-class}} font btn--primary btn">{{btn-content}}</button>
+    {{/disabled}}
+
+    {{^disabled}}
+    <button class="{{btn-class}} font btn--primary btn">{{btn-content}}</button>
+    {{/disabled}}
+{{/btn-link}}

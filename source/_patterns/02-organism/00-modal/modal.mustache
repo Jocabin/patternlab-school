@@ -1,0 +1,46 @@
+<form class="contact">
+    {{> atoms-title}}
+
+    <div>
+        {{#field-name}}
+            {{> atoms-field}}
+        {{/field-name}}
+        {{#field-firstname}}
+            {{> atoms-field}}
+        {{/field-firstname}}
+    </div>
+
+    {{#field-email}}
+        {{> atoms-field}}
+    {{/field-email}}
+
+    <div>
+        {{#field-tel}}
+            {{> atoms-field}}
+        {{/field-tel}}
+        {{#field-entreprise}}
+            {{> atoms-field}}
+        {{/field-entreprise}}
+    </div>
+
+    <div class="radio_list">
+        <label class="font">Objet :</label>
+        <div>
+            {{#field-radio}}
+                {{> atoms-radio}}
+            {{/field-radio}}
+        </div>
+    </div>
+
+    {{#txt-area}}
+        {{> atoms-textarea}}
+    {{/txt-area}}
+
+    {{#icon-button}}
+        {{> atoms-icon-button}}
+    {{/icon-button}}
+
+    {{#icon-close}}
+        {{> atoms-icon-button}}
+    {{/icon-close}}
+</form>

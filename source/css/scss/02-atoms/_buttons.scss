@@ -1,0 +1,37 @@
+.btn {
+  border: 0;
+  outline: 0;
+  font-size: 1.13rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn--primary {
+  color: $nc--100;
+  background-color: $ac--btn;
+
+  &:hover,
+  &:focus {
+    color: $nc--100;
+    background-color: $ac--btn--hover;
+  }
+
+  &:disabled,
+  &[disabled] {
+    cursor: no-drop;
+    background-color: $ac--btn;
+    opacity: 0.5;
+
+    &:hover,
+    &:focus {
+      background-color: $ac--btn;
+    }
+  }
+}

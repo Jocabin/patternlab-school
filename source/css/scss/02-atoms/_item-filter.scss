@@ -1,0 +1,14 @@
+.item-filter {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+
+    span {
+        margin-top: 2px;
+        font-size: 1rem;
+        font-weight: 100;
+        text-transform: capitalize;
+    }
+}

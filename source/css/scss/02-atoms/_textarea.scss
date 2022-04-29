@@ -1,0 +1,18 @@
+.area {
+    display: flex;
+    flex-flow: column nowrap;
+
+    textarea {
+        resize: none;
+        width: fit-content;
+
+        border: solid 1px $nc--100;
+        border-radius: 3px;
+        padding: 0.5rem;
+        width: fit-content;
+
+        &:focus {
+            border-color: $ac--btn;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+patternlab.json
+package-lock.json
+.sass-cache/*
+/sass-cache
+Thumbs.db
+.idea/
+public
+source/css/style.css
+source/css/scss/style.css
+source/css/scss/maps/*
+source/css/maps

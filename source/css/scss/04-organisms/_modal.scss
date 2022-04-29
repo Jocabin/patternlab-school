@@ -1,0 +1,57 @@
+.contact {
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: $bs--btn;
+    padding: 2rem 4rem;
+    width: fit-content;
+    border-radius: 5px;
+    position: relative;
+    margin: 3rem;
+
+    .icon-button {
+        align-self: flex-end;
+    }
+
+    .icon-button:last-of-type {
+        position: absolute;
+        top: calc(-3.2rem / 2);
+        right: calc(-3.2rem / 2);
+    }
+
+    > *:not(.icon-button) {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        .field {
+            flex: 1;
+
+            &:first-of-type {
+                margin-right: 1rem;
+            }
+        }
+
+        input,
+        textarea {
+            width: 100%;
+        }
+    }
+
+    > div {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .radio_list {
+        display: flex;
+        flex-flow: column nowrap;
+
+        > div {
+            display: flex;
+            flex-flow: row wrap;
+
+            .radio_label:not(:last-of-type) {
+                margin-right: 2rem;
+            }
+        }
+    }
+}

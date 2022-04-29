@@ -1,0 +1,18 @@
+{
+    "is_h1": false,
+    "is_h2": true,
+    "is_h3": false,
+    "text": "Récapitulatif",
+    "edit-btn": {
+        "disabled": "",
+        "src": "../../images/edit.svg"
+    },
+    "valid-btn": {
+        "disabled": "",
+        "src": "../../images/tick.svg"
+    },
+    "close-btn": {
+        "disabled": "",
+        "src": "../../images/close.svg"
+    }
+}

@@ -1,0 +1,46 @@
+.recap {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: $bs--btn;
+    width: fit-content;
+    padding: 1rem 3rem;
+    position: relative;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 3rem;
+
+    div:not(.btns) {
+        padding: 1rem 0;
+        border-bottom: solid $nc--50 2px;
+        border-top: solid $nc--50 2px;
+        p {
+            margin: 0;
+            margin-bottom: 10px;
+
+            &:last-of-type {
+                margin: 0;
+            }
+
+            strong {
+                color: #003262;
+            }
+        }
+    }
+
+    .btns {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    > .icon-button {
+        position: absolute;
+        top: calc(-3.2rem / 2);
+        right: calc(-3.2rem / 2);
+    }
+}

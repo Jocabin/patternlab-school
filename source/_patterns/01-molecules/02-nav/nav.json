@@ -1,0 +1,16 @@
+{
+  "item-menu": [
+    {
+      "link-content": "Donation"
+    },
+    {
+      "link-content": "Devices"
+    },
+    {
+      "link-content": "Rendez-vous"
+    },
+    {
+      "link-content": "Contact"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "normal-btn": {
+        "disabled": "",
+        "src": "../../images/personnage.svg"
+    },
+    "disabled-btn": {
+        "disabled": "disabled",
+        "src": "../../images/personnage.svg"
+    }
+}

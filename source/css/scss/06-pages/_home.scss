@@ -1,0 +1,14 @@
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    > * {
+        margin-bottom: 4rem;
+    }
+
+    .screen:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+}

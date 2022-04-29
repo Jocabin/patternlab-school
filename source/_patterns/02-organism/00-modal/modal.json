@@ -1,0 +1,65 @@
+{
+    "is_h1": false,
+    "is_h2": false,
+    "is_h3": false,
+    "text": "Contact",
+    "modal": true,
+    "field-name": {
+        "type": "text",
+        "name": "name",
+        "text": "Nom",
+        "label": true
+    },
+    "field-firstname": {
+        "type": "text",
+        "name": "firstname",
+        "text": "Prénom",
+        "label": true
+    },
+    "field-email": {
+        "type": "email",
+        "name": "email",
+        "text": "Email",
+        "label": true
+    },
+    "field-tel": {
+        "type": "tel",
+        "name": "tel",
+        "text": "Tel",
+        "label": true
+    },
+    "field-entreprise": {
+        "type": "text",
+        "name": "entreprise",
+        "text": "Nom de l'entreprise",
+        "label": true
+    },
+    "field-radio": [
+        {
+            "radio_name": "radio",
+            "radio_text": "Question",
+            "radio_id": "question"
+        },
+        {
+            "radio_name": "radio",
+            "radio_text": "Faire un don",
+            "radio_id": "don"
+        },
+        {
+            "radio_name": "radio",
+            "radio_text": "Prendre rendez-vous",
+            "radio_id": "rdv"
+        }
+    ],
+    "txt-area": {
+        "label": true,
+        "area_name": "message",
+        "area_text": "Votre message"
+    },
+    "icon-button": {
+        "src": "../../images/tick.svg"
+    },
+    "icon-close": {
+        "src": "../../images/close.svg"
+    }
+}

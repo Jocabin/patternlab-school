@@ -1,0 +1,24 @@
+<div class="recap font">
+    {{> atoms-title}}
+
+    <div>
+        <p><strong>Dates&nbsp;:&nbsp;</strong>23 au 26 Janvier 2017</p>
+        <p><strong>Lieu&nbsp;:&nbsp;</strong>52 rue de la Porte, 33000 Bordeaux</p>
+        <p><strong>Nom&nbsp;:&nbsp;</strong>André Patchouli</p>
+        <p><strong>Email&nbsp;:&nbsp;</strong>andre.patchouli@gmail.com</p>
+    </div>
+
+    <div class="btns">
+        {{#edit-btn}}
+            {{> atoms-icon-button}}
+        {{/edit-btn}}
+
+        {{#valid-btn}}
+            {{> atoms-icon-button}}
+        {{/valid-btn}}
+    </div>
+
+    {{#close-btn}}
+        {{> atoms-icon-button}}
+    {{/close-btn}}
+</div>

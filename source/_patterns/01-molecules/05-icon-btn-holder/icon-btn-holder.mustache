@@ -1,0 +1,20 @@
+<style>
+.icon-btn-holder {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.icon-btn-holder .icon-button {
+    margin-right: 2rem;
+}
+</style>
+
+<div class="icon-btn-holder">
+    {{#normal-btn}}
+        {{> atoms-icon-button}}
+    {{/normal-btn}}
+
+    {{#disabled-btn}}
+        {{> atoms-icon-button}}
+    {{/disabled-btn}}
+</div>

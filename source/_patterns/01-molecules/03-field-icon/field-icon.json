@@ -1,0 +1,8 @@
+{
+    "class": "",
+    "type": "text",
+    "name": "name",
+    "text": "Nom",
+    "label": false,
+    "src": "../../images/personnage.svg"
+}

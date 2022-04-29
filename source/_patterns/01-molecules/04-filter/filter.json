@@ -1,0 +1,34 @@
+{
+    "icons": [
+        {
+            "text": "All",
+            "disabled": "disabled",
+            "src": "../../images/all.svg"
+        },
+        {
+            "text": "laptop",
+            "disabled": "disabled",
+            "src": "../../images/laptop.svg"
+        },
+        {
+            "text": "Tablet",
+            "disabled": "",
+            "src": "../../images/tablet.svg"
+        },
+        {
+            "text": "Phone",
+            "disabled": "",
+            "src": "../../images/phone.svg"
+        },
+        {
+            "text": "IOS",
+            "disabled": "",
+            "src": "../../images/apple.svg"
+        },
+        {
+            "text": "Android",
+            "disabled": "",
+            "src": "../../images/android.svg"
+        }
+    ]
+}

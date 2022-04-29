@@ -1,0 +1,33 @@
+{
+    "title-m": {
+        "is_h1": true,
+        "is_h2": false,
+        "is_h3": false,
+        "text": "ecv device lab",
+        "modal": false
+    },
+    "screen-s": {
+        "src": "../../images/image_div.svg",
+        "is_h1": false,
+        "is_h2": true,
+        "is_h3": false,
+        "text": "Pour tout le monde !",
+        "modal": false,
+        "text_t": "Ce Device Lab est destiné à chaque personne souhaitant améliorer la compatibilité de son site web sur plusieurs tailles d'écran et plusieurs navigateurs."
+    },
+    "screen-f": {
+        "src": "../../images/image_div.svg",
+        "is_h1": false,
+        "is_h2": true,
+        "is_h3": false,
+        "text": "Efficace & puissant !",
+        "modal": false,
+        "text_t": "Avec Browser Sync, vous pouvez régler votre site Web en temps réel sur tous les appareils. Et vous pouvez avoir des retours d’utilisateurs avec Silverback."
+    },
+    "btn-g": {
+        "btn-class": "",
+        "btn-link": "#",
+        "btn-content": "Voir les appareils",
+        "disabled": ""
+    }
+}

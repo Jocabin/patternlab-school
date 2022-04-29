@@ -1,0 +1,11 @@
+.filter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+
+    .item-filter:not(:last-of-type) {
+        margin-right: 1.5rem;
+    }
+}
